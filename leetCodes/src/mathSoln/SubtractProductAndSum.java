@@ -1,4 +1,4 @@
-package arraySoln;
+package mathSoln;
 import java.util.Scanner; 
 public class SubtractProductAndSum { 
 

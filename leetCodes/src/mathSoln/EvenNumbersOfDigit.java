@@ -1,4 +1,4 @@
-package arraySoln;
+package mathSoln;
 public class EvenNumbersOfDigit {
 
 	public static void main(String[] args) {
