@@ -3,6 +3,7 @@ package mathSoln;
 public class main {
 	
 	private static int  k = 19;
+	int yo = 10;
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -12,5 +13,9 @@ public class main {
 	public static void printer() {
 		System.out.println( "Rabin using this name"+ "his age is k" + k);
 	}
-
+	
+	public rain() {
+		super.yo
+		
+	}
 }
