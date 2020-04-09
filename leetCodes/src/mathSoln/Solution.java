@@ -17,17 +17,16 @@ package mathSoln;
 	    public static void main(String[] args) {
 
 	        System.out.print("N : ");
-	        int N = Integer.parseInt(scanner.nextLine());
+	        int n = Integer.parseInt(scanner.nextLine());
 
-	        if (N%2 == 1){
-	        	System.out.println("Weird");
-	        } else if(N%2 == 0 || (2<=N && N <=5)) {
-	        	System.out.println("Not Weird");
-	        } else if(N%2 == 0 && (N >= 6 && N <= 20)) {
-	        	System.out.println("Weird");
-	        }else if(N%2 == 0 || (N > 20)) {
-	        	System.out.println("Weird");
+	        if(n%2==1 || (n>=6 && n <= 20)){
+	        	 System.out.println("Weird");
+	        	}
+	        else if(n%2 == 0 && (2 <= n && n <= 5)) {
+		        	System.out.println("Not Weird");
+	        }
+	        else {System.out.println("Not Weird");
+	        	}
 	        scanner.close();
 	    }
 	}
-}
