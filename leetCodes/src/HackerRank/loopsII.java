@@ -1,4 +1,4 @@
-package mathSoln;
+package HackerRank;
 
 import java.util.*;
 import java.io.*;
